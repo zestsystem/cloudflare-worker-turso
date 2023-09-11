@@ -1,2 +1,3 @@
 packages: 
-  server/**
+  hono-cf-worker/**
+  hono-node/**
