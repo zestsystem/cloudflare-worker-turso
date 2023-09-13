@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turso dev & cd hono-cf-worker && pnpm dev",
+    "broken-dev": "turso dev & cd hono-cf-worker && pnpm broken-dev"
   },
   "keywords": [],
   "author": "",

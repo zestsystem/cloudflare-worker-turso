@@ -6,18 +6,18 @@ Make sure you have nix installed in your system. Enter the dev shell with
 nix develop
 ```
 ## Without Nix DevShell
-Make sure you have turso-cli, sqld, and just(optional for convenience) installed in your system.
+Make sure you have turso-cli and sqld installed in your system.
 
 
 ### To install
 ```
-just install
+pnpm install
 ```
 
 ### Without `--remote` flag turso works
 
 ```
-just dev
+pnpm dev
 
 # or
 
@@ -32,7 +32,7 @@ curl http://localhost:8787
 ### With `--remote` flag turso 403 error
 
 ```
-just broken-dev
+pnpm broken-dev
 
 # or 
 

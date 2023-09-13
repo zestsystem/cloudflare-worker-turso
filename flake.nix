@@ -27,7 +27,6 @@
         default = pkgs.mkShell {
           buildInputs = with pkgs; [
             nodejs-18_x
-            just
             zsh
             sqld
             turso-cli
