@@ -18,6 +18,10 @@ just install
 
 ```
 just dev
+
+# or
+
+cd hono-cf-worker && wrangler dev src/index.ts
 ```
 
 and then
@@ -29,6 +33,10 @@ curl http://localhost:8787
 
 ```
 just broken-dev
+
+# or 
+
+cd hono-cf-worker && wrangler dev src/index.ts --remote
 ```
 
 and then
