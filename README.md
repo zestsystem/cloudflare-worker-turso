@@ -14,18 +14,24 @@ Make sure you have turso-cli, sqld, and just(optional for convenience) installed
 just install
 ```
 
-### To develop
+### Without `--remote` flag turso works
+
 ```
 just dev
 ```
 
-### To hit cloudflare worker hono
-
+and then
 ```
 curl http://localhost:8787
 ```
 
-### To hit node.js hono
+### With `--remote` flag turso 403 error
+
+```
+just broken-dev
+```
+
+and then
  ```
- curl http://localhost:3000
+ curl http://localhost:8787
  ```

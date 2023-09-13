@@ -1,6 +1,8 @@
 install: 
   pnpm install
 dev: 
-  cd hono-node && pnpm run start &
   cd hono-cf-worker && pnpm run dev &
-  turso dev 
+  turso dev
+broken-dev: 
+  cd hono-cf-worker && pnpm run broken-dev &
+  turso dev
